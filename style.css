@@ -1,0 +1,35 @@
+* {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    width: 500px;
+    background-color: #e7e7e7;
+}
+
+.dish-preview {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #AAAAAA;
+}
+
+.description {
+    font-weight: 200;
+}
+
+.ingredient {
+    padding: 10px 5px;
+    color: #662266;
+    text-align: center;
+    border-bottom: solid
+}
+
+.ingredient:last-of-type {
+    border-bottom: none;
+}
+
+li::marker {
+    display: none;
+}
