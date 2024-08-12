@@ -4,26 +4,64 @@
 }
 
 body {
-    width: 500px;
-    background-color: #e7e7e7;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-container {
+    margin: auto;
+    width: 700px;
+    padding: 20px 20px;
+    background-image: linear-gradient(#FFFFFF, #dadada);
+    overflow: hidden;
+    box-shadow: 0 0 10px #333333;
+}
+
+.recipe-title {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 200px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 30px;
 }
 
 .dish-preview {
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    box-shadow: 0 0 5px #AAAAAA;
+    width: 110%;
+    height: auto;
+    margin: -20% -5%;
+    box-shadow: 0 0 50px #000000;
+    border-radius: 50% / 100px;
 }
 
 .description {
     font-weight: 200;
 }
 
+.information-container {
+    margin: 20px 0;
+}
+
+.information-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0 40px 0;
+    font-weight: 500;
+    color: #333333;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
 .ingredient {
-    padding: 10px 5px;
+    padding: 20px 5px;
+    margin: 0 20px;
     color: #662266;
     text-align: center;
-    border-bottom: solid
+    border-bottom: 1px solid;
+}
+
+.step {
+    padding: 20px 5px;
 }
 
 .ingredient:last-of-type {
